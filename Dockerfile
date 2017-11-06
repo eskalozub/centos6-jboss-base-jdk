@@ -1,5 +1,5 @@
 FROM skae/jboss-base-centos:6
-MAINTAINER Espen Skalozub
+MAINTAINER Espen Skalozub (espen.skalozub@gmail.com)
 
 # User root user to install software
 USER root
