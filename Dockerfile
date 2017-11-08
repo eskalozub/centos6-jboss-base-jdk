@@ -5,7 +5,7 @@ MAINTAINER Espen Skalozub (espen.skalozub@gmail.com)
 USER root
 
 # Install necessary packages
-RUN yum -y install java-1.7.0-openjdk-devel && yum clean all
+RUN yum -y install java-1.8.0-openjdk-devel && yum clean all
 
 # Switch back to jboss user
 USER jboss
